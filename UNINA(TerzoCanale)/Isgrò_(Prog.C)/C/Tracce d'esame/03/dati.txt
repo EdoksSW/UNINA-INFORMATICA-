@@ -1,0 +1,7 @@
+GiuliaBianchi AA1200 Torino Berlino 40.00  
+MarcoVerdi BB2345 Milano Parigi 120.50  
+ElenaRossi CC9876 Roma Londra 45.00  
+LucaNeri DD6789 Napoli Madrid 78.90  
+AnnaEsposito EE4321 Palermo Vienna 200.00  
+LucaBruni	 EE4323 Palermo Monaco 175.00 
+GiorgioRicci FF7654 Venezia Amsterdam 30.00

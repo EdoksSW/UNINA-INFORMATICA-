@@ -1,0 +1,9 @@
+Mario Rossi HotelLuna Roma 1 80.00
+Anna Verdi HotelSole Napoli 3 65.00
+Luca Bianchi HotelMare Bari 2 70.00
+Paolo Neri HotelCentro Milano 1 110.00
+Giulia Blu HotelCentro Milano 1 95.50
+Elena Rosa HotelArte Roma 4 90.00
+Chiara Gialli HotelSole Napoli 2 60.00
+Sofia Bruni HotelMare Bari 1 75.00
+

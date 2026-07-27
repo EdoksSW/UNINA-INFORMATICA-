@@ -1,0 +1,48 @@
+CREATE TABLE Cliente(
+codiceFiscale VARCHAR(16) PRIMARY KEY,
+nome VARCHAR(50) NOT NULL,
+cognome VARCHAR(50) NOT NULL,
+
+email VARCHAR(100) NOT NULL UNIQUE,
+password VARCHAR(255),
+
+telefono VARCHAR(20) NOT NULL,
+dataNascita DATE NOT NULL,
+eta INT NOT NULL,
+
+via VARCHAR (100),
+civo VARCHAR(5),
+cap VARCHAR(10),
+
+stato_account VARCHAR(20) NOT NULL,
+carta_fedelta VARCHAR(20)
+);
+
+CREATE TABLE Staff(
+codiceFiscale VARCHAR(16) PRIMARY KEY,
+nome VARCHAR(50) NOT NULL,
+cognome VARCHAR(50) NOT NULL,
+
+email VARCHAR(100) NOT NULL UNIQUE,
+password VARCHAR (255),
+
+telefono VARCHAR(20) NOT NULL,
+dataNascita DATE NOT NULL,
+eta INT NOT NULL,
+
+via VARCHAR (100) NOT NULL,
+civo VARCHAR(5) NOT NULL,
+cap VARCHAR(10) NOT NULL,
+
+iban VARCHAR (27) NOT NULL UNIQUE,
+ruolo VARCHAR(50) NOT NULL,
+qualifica VARCHAR(100)
+);
+
+CREATE TABLE Admin(
+	codiceFIscale VARCHAR(16) PRIMARY KEY,
+	nome VARCHAR(50),
+	cognome VARCHAR(50),
+	dataNascita DATE,
+	password VARCHAR (255) NOT NULL
+);

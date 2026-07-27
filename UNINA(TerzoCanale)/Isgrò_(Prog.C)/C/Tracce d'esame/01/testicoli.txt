@@ -1,0 +1,1 @@
+Pane Alimentare 1.500000 20 1234Sapone Igiene 3.000000 15 3456Carne Alimentare 5.500000 12 4567Shampoo Igiene 4.000000 10 5678Detergente Pulizia 6.000000 18 8901Straccio Pulizia 2.500000 9 9012

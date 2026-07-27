@@ -1,0 +1,9 @@
+Latte Alimentare 1.20 8 2345
+Pane Alimentare 1.50 20 1234 
+Sapone Igiene 3.00 15 3456 
+Carne Alimentare 5.50 12 4567 
+Shampoo Igiene 4.00 10 5678 
+Sedia Arredamento 25.00 5 6789 
+Tavolo Arredamento 50.00 2 7890 
+Detergente Pulizia 6.00 18 8901 
+Straccio Pulizia 2.50 9 9012

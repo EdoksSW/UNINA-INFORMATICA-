@@ -1,0 +1,6 @@
+ALTER TABLE Lezione
+ADD COLUMN id_sala INT,
+ADD CONSTRAINT fk_lezione_Sala
+	FOREIGN KEY(id_sala)
+	REFERENCES Sala(id_sala)
+	ON DELETE CASCADE;

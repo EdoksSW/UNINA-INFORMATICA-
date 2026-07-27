@@ -1,0 +1,40 @@
+-- Creazione di due tabelle con vincoli di chiave primaria,
+-- UNIQUE e chiave esterna.
+
+-- Attiva implem. vincoli di chiave esterna
+PRAGMA foreign_keys = ON;
+
+-- Dipartimenti
+CREATE TABLE departments (
+    dept_id   INTEGER PRIMARY KEY,
+    dept_name TEXT    NOT NULL UNIQUE
+);
+
+-- Impiegati
+CREATE TABLE employees (
+    emp_id    INTEGER PRIMARY KEY,
+    emp_name  TEXT    NOT NULL,
+    email     TEXT    NOT NULL UNIQUE,
+    dept_id   INTEGER NOT NULL,
+    FOREIGN KEY (dept_id) REFERENCES departments(dept_id) ON DELETE CASCADE
+);
+
+
+-- Inserimento dipartimenti
+INSERT INTO departments (dept_id, dept_name) VALUES (1, 'Engineering');
+INSERT INTO departments (dept_id, dept_name) VALUES (2, 'Marketing');
+INSERT INTO departments (dept_id, dept_name) VALUES (3, 'HR');
+
+-- Inserimento
+INSERT INTO employees (emp_id, emp_name, email, dept_id) VALUES (1, 'Alice',   'alice@company.com',   1);
+INSERT INTO employees (emp_id, emp_name, email, dept_id) VALUES (2, 'Bob',     'bob@company.com',     1);
+INSERT INTO employees (emp_id, emp_name, email, dept_id) VALUES (3, 'Carol',   'carol@co.com',   2);
+INSERT INTO employees (emp_id, emp_name, email, dept_id) VALUES (4, 'Dave',    'dave@company.com',    3);
+
+
+
+SELECT * FROM departments;
+SELECT * FROM employees;
+
+DELETE FROM departments WHERE dept_id = 1;
+
