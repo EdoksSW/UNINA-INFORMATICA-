@@ -94,12 +94,6 @@
 !+s::Send, {U+2203}{!}
 
 
-; --- ALFABETO GRECO ---
-
-; Premi Alt + R per digitare ρ (Rho minuscola)
-!r::Send, {U+03C1}
-
-
 ; --- PEDICI (Numeri in basso) ---
 
 ; Premi Alt + Shift + 1 per digitare ₁
@@ -189,3 +183,19 @@
 
 ; Premi Ctrl + Alt + O (MenO) per digitare ⁻
 ^!o::Send, {U+207B}
+
+; =========================================================
+; ALFABETO GRECO (Parole Magiche)
+; =========================================================
+
+; Scrivi ;alpha per digitare α
+:X*:;alpha::Send, {U+03B1}
+
+; Scrivi ;beta per digitare β
+:X*:;beta::Send, {U+03B2}
+
+; Scrivi ;gamma per digitare γ
+:X*:;gamma::Send, {U+03B3}
+
+; Scrivi ;rho per digitare ρ
+:X*:;rho::Send, {U+03C1}
